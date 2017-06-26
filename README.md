@@ -9,6 +9,8 @@ It is modified from the Human Cells and Colocalization examples at http://cellpr
 
 In CellProfiler, *File > Open Project...*.
 
+In the middle of the CellProfiler window, under **File List**, right-click and *Clear File List*.
+
 Drag a folder of input images onto the indicated area in the CellProfiler window.
 
 ### Selecting images
