@@ -13,8 +13,8 @@ Drag a folder of input images onto the indicated area in the CellProfiler window
 ### Selecting images
 
 1. Click **Apply filters to the file list**. This removes non-image files.
-2. In the upper left corner of the CellProfiler window, click **Metadata**, then **Update**. Next to each DAPI image name, you should see the name of the sample.
-3.  In the upper left corner of the CellProfiler window, click **Names And Types**, then **Update**. For each sample, you should see the filenames for the blue (DAPI), green (GPF), and red (Y-2E-C) channels.
+2. In the upper left corner of the CellProfiler window, click **Metadata**, then **Update**. You'll see a table of filenames. In the **Sample** column, next to each DAPI image name, you should see the name of the sample. Non-DAPI images should say "None."
+3.  In the upper left corner of the CellProfiler window, click **Names And Types**, then **Update**. For each sample, under the columns "OrigBlue", "OrigGreen," and "OrigRed," you should see the filenames for the blue (DAPI), green (GPF), and red (Y-2E-C) channels respectively.
 
 ### Setting the output location
 
@@ -22,7 +22,9 @@ In the lower left corner of the CellProfiler window, click **View output setting
 
 ### Analyzing images
 
-Click **Analyze Images**. The analysis will take a few minutes per large image. 
+In the lower left corner of the CellProfiler window, click **Analyze Images**. 
+
+The analysis will take a few minutes per large image. 
 
 The following will be saved to the output folder:
 1. A CSV file containing counts and area of all red cells, all green cells, and colocalized (positive for both red and green) cells.
