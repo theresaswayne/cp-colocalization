@@ -8,6 +8,7 @@ It is modified from the Human Cells and Colocalization examples at http://cellpr
 ## Usage
 
 In CellProfiler, *File > Open Project...*.
+
 Drag a folder of input images onto the indicated area in the CellProfiler window.
 
 ### Selecting images
