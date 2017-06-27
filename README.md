@@ -34,7 +34,7 @@ In the lower left corner of the CellProfiler window, click **Analyze Images**.
 The analysis will take a few minutes per large image. 
 
 The following will be saved to the output folder:
-1. A CSV file containing counts and area of all red cells, all green cells, and colocalized (positive for both red and green) cells.
+1. A CSV file containing counts and area of all red cells, all green cells, and colocalized (positive for both red and green) cells. Counts of cells that are only red and only green are also calculated.
 2. PNG images showing outlines of detected red cells, detected green cells, and colocalized cells respectively.
 
 ## Credits
